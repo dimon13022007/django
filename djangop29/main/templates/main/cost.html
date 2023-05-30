@@ -1,0 +1,916 @@
+{% load static %}
+
+<div class="rectangle1"></div>
+<div class="main"><a href="/" >Головна</a>  </div>
+<div class="main2">
+  <a href="/cost">Ціни і розклад</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="/kids">Дитячі свята</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="/contacts">Контакти</a>
+</div>
+
+
+<style>
+
+
+.rectangle1{
+    position: fixed;
+    width: 1580px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+    background: #000000;
+    z-index: 3;
+
+}
+body {
+  overflow-x: hidden;
+   height: 2000px;
+}
+.main{
+    position: fixed;
+    width: 127px;
+    height: 37px;
+    left: 100px;
+    top: 32px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+/* identical to box height */
+  z-index: 3;
+
+
+color: #FFFFFF;
+
+}
+
+.main2 {
+    position: fixed;
+    width: 621px;
+    height: 30px;
+    right: 99px;
+    top: 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+
+    line-height: 25px; /* Примерное значение, можно настроить по вашим потребностям */
+    margin-left: 50px;
+    color: #FFFFFF;
+      overflow: hidden; /* Скрываем избыточный текст */
+    transition: height 0.3s ease; /* Добавляем анимацию перехода */
+      z-index: 3;
+
+}
+.main2 a {
+    text-decoration: none; /* Убираем декорации ссылок */
+    color: inherit; /* Наследуем цвет текста от родительского элемента */
+}
+.main a {
+    text-decoration: none; /* Убираем декорации ссылок */
+    color: inherit; /* Наследуем цвет текста от родительского элемента */
+}
+
+.img12{
+    position: relative;
+    left:-50px;
+    bottom: -90px;
+
+}
+.rectangle4{
+    position: relative;
+    width: 780px;
+    height:738px;
+    left:760px;
+    top: -648px;
+
+    background: #67DFD0;
+
+}
+#myText6 {
+  font-size: 90px;
+  color:white;
+  position:relative;
+  right:-70px;
+  top:220px;
+  color:black
+}
+
+.rectangle5{
+    position: relative;
+    width: 780px;
+    height:738px;
+    left:-18px;
+    top: -648px;
+
+    background: #209CFF;
+}
+
+#myText7 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-210px;
+  top:160px;
+  color:white;
+}
+#myText8 {
+  font-size: 27px;
+  color:white;
+  position:relative;
+  right:-204px;
+  top:100px;
+  color:white;
+}
+.money {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-304px;
+  top:205px;
+  color:white;
+}
+
+#myText9 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:125px;
+  top:260px;
+  color:white;
+}
+#myText10 {
+  font-size: 27px;
+  color:white;
+  position:relative;
+  right:-204px;
+  top:260px;
+  color:white;
+}
+.money2 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-304px;
+  top:275px;
+  color:white;
+}
+#myText11 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-220px;
+  top:320px;
+  color:white;
+}
+#myText12 {
+  font-size: 27px;
+  color:white;
+  position:relative;
+  right:-16px;
+  top:355px;
+  color:white;
+}
+.money3 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-304px;
+  top:365px;
+  color:white;
+}
+.img13{
+    position: relative;
+    width: 780px;
+    height:738px;
+    left:764px;
+    top: -1388px;
+
+    background: #209CFF;
+}
+#myText13 {
+  font-size: 119px;
+  color:white;
+  position:relative;
+  right:-226px;
+  top:-555px;
+  color:black;
+}
+#myText14 {
+  font-size: 119px;
+  color:white;
+  position:relative;
+  right:-80px;
+  top:-555px;
+  color:black;
+}
+#myText15 {
+  font-size: 90px;
+  color:white;
+  position:relative;
+  right:-140px;
+  top:-475px;
+  color:black;
+}
+.img14{
+    position: relative;
+    width: 780px;
+    height:738px;
+    left:-16px;
+    top: -1388px;
+
+    background: #209CFF;
+}
+.rectangle6{
+    position: relative;
+    width: 780px;
+    height:738px;
+    left: 760px;
+    top: -2128px;
+
+    background: #FF9AED;
+}
+
+#myText16 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-120px;
+  top:160px;
+  color:white;
+}
+#myText17 {
+  font-size: 27px;
+  color:white;
+  position:relative;
+  right:-304px;
+  top:100px;
+  color:white;
+}
+#myText18 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:5px;
+  top:260px;
+  color:white;
+}
+#myText19 {
+  font-size: 27px;
+  color:white;
+  position:relative;
+  right:-264px;
+  top:260px;
+  color:white;
+}
+#myText20 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-120px;
+  top:320px;
+  color:white;
+}
+#myText21 {
+  font-size: 27px;
+  color:white;
+  position:relative;
+  right:216px;
+  top:355px;
+  color:white;
+}
+.rectangle7{
+    position: relative;
+    width: 780px;
+    height:738px;
+    left: -21px;
+    top: -2128px;
+
+    background: #866AD3;
+}
+#myText22 {
+  position: absolute;
+width: 338px;
+height: 49px;
+left: 206px;
+top: 50px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 49px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+#myText28 {
+ position: absolute;
+width: 331px;
+height: 33px;
+left: 210px;
+top: 90px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 27px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+#myText23 {
+  position: absolute;
+width: 551px;
+height: 132px;
+left: 100px;
+top: 111px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF
+}
+.money5 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-314px;
+  top:280px;
+  color:white;
+}
+#myText24 {
+  position: absolute;
+width: 338px;
+height: 49px;
+left: 206px;
+top: 354px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 49px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+#myText25 {
+  position: absolute;
+width: 537px;
+height: 132px;
+left: 100px;
+top: 394px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+#myText29 {
+  font-size: 27px;
+  color:white;
+  position:relative;
+  right:-350px;
+  top:281px;
+  color:white;
+}
+#myText26 {
+  position: absolute;
+width: 537px;
+height: 132px;
+left: 100px;
+top: 454px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.money6 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-313px;
+  top:515px;
+  color:white;
+}
+.img15{
+    position: relative;
+    width: 780px;
+    height:738px;
+    left:760px;
+    top: -2864px;
+
+    background: #209CFF;
+}
+#myText27 {
+  font-size: 90px;
+  color:white;
+  position:relative;
+  right:-90px;
+  top:-475px;
+  color:black;
+}
+.img16{
+    position: relative;
+    width: 780px;
+    height:738px;
+    left:-20px;
+    top: -2870px;
+
+    background: #209CFF;
+}
+#myText38 {
+
+position: absolute;
+width: 670px;
+height: 240px;
+left: 35px;
+top: 245px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 90px;
+line-height: 120px;
+text-align: center;
+
+color: #000000;
+}
+.rectangle8{
+    position: relative;
+    width: 780px;
+    height:738px;
+    left: 761px;
+    top: -3608px;
+
+    background: #209CFF;
+}
+#myText40 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-150px;
+  top:40px;
+  color:white;
+}
+#myText41 {
+  font-size: 27px;
+  color:white;
+  position:relative;
+  right:-204px;
+  top:-10px;
+  color:white;
+}
+.money393 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-314px;
+  top:85px;
+  color:white;
+}
+#myText42 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:120px;
+  top:110px;
+  color:white;
+}
+#myText43 {
+  font-size: 27px;
+  color:white;
+  position:relative;
+  right:-164px;
+  top:120px;
+  color:white;
+}
+.money200 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-316px;
+  top:125px;
+  color:white;
+}
+#myText44 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-190px;
+  top:160px;
+  color:white;
+}
+#myText450 {
+  font-size: 27px;
+  color:white;
+  position:relative;
+  right:-144px;
+  top:170px;
+  color:white;
+}
+.money300 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-316px;
+  top:185px;
+  color:white;
+}
+.rectangle9{
+    position: relative;
+    width: 780px;
+    height:738px;
+    left: -21px;
+    top: -3608px;
+
+    background: #67DFD0;
+}
+
+#myText2222 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-240px;
+  top:110px;
+  color:white;
+}
+#myText3212 {
+position: absolute;
+width: 621px;
+height: 165px;
+left: 61px;
+top: 170px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.money1350 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-299px;
+  top:235px;
+  color:white;
+}
+#myText9999 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-190px;
+  top:270px;
+  color:white;
+}
+.money2000 {
+  font-size: 40px;
+  color:white;
+  position:relative;
+  right:-299px;
+  top:435px;
+  color:white;
+}
+#myText4887 {
+ position: absolute;
+width: 620px;
+height: 165px;
+left: 61px;
+top: 428px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.img0{
+    position: relative;
+    width: 780px;
+    height:738px;
+    left:760px;
+    top: -4340px;
+
+    background: #209CFF;
+}
+#myText39 {
+  position: absolute;
+width: 543px;
+height: 240px;
+right: 110px;
+top: 221px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 90px;
+line-height: 120px;
+text-align: center;
+
+color: #000000;
+}
+.rectangle44{
+    position: relative;
+    width: 1580px;
+    height:482px;
+    left:-30px;
+    top: -4346px;
+
+    background: black;
+
+}
+.text66{
+  font-size: 30px;
+  color:white;
+  position:relative;
+  right:-80px;
+  top: -4800px;
+  color:white;
+  }
+
+  .text67{
+  font-size: 35px;
+  color:white;
+  position:relative;
+  right:-1140px;
+  top: -4870px;
+
+  }
+
+  .line99{
+
+   position: relative;
+    width: 1580px;
+    height:2px;
+    left:-30px;
+    top: -4788px;
+
+    background: white;
+
+  }
+
+  .phone33{
+
+  position: relative;
+  font-size: 30px;
+
+    left:80px;
+    top: -4708px;
+
+
+   color:white;
+  }
+
+  .phone33::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 160px;
+  height: 1px;
+  background-color: white;
+}
+
+  .gmail{
+
+  position: relative;
+  font-size: 30px;
+
+    left:70px;
+    top: -4668px;
+
+
+   color:white;
+  }
+    .text68{
+
+  position: relative;
+  font-size: 30px;
+
+    left:1070px;
+    top: -4848px;
+
+
+   color:white;
+  }
+   .img16000{
+    position: absolute;
+    top: 5049px;
+    left: 1047px;
+
+
+
+}
+  .img17000{
+    position: absolute;
+    top: 5049px;
+    left: 1147px;
+
+
+
+}
+  .img18000{
+    position: absolute;
+    top: 5049px;
+    left: 1248px;
+
+
+
+}
+  .img19000{
+    position: absolute;
+    top: 5049px;
+    left: 1347px;
+
+
+
+}
+
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-image: url("{% static 'main/img/Bullet_(typography).svg.png' %}");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 690px;
+  left: 1300px;
+  z-index:2;
+}
+
+.text {
+  position: absolute;
+  top: 48%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+}
+</style>
+<div class="circle">
+  <span class="text">ОПЛАТА ЗАПИСУ</span>
+  <a href="/payments"></a>
+</div>
+<div class="img12"><img src="{% static 'main/img/photo1684756165 2.png' %}" width="1620" height="740"></div>
+<!-- Зображення великого залу -->
+<div class="rectangle4">
+    <span id="myText6"><strong>Ціни та розклад</strong></span>
+    <!-- Заголовок "Ціни та розклад" -->
+</div>
+<div class="rectangle5">
+    <span id="myText7">Разовий вхід в зал</span>
+    <!-- Текст "Разовий вхід в зал" -->
+    <div class="money">350₴</div>
+    <!-- Ціна для разового входу -->
+    <span id="myText8">Вхід до центру на весь день.</span>
+    <!-- Текст "Вхід до центру на весь день" -->
+    <span id="myText9">Разовий вхід в зал</span>
+    <!-- Текст "Разовий вхід в зал" -->
+    <span id="myText10">тренуйся тренуйся до 15-ї по буднях</span>
+    <!-- Текст "тренуйся тренуйся до 15-ї по буднях" -->
+    <div class="money2">200₴</div>
+    <!-- Ціна для тренувань до 15-ї по буднях -->
+    <span id="myText11">10 відвідувань</span>
+    <!-- Текст "10 відвідувань" -->
+    <span id="myText12">за ціною 9-ти</span>
+    <!-- Текст "за ціною 9-ти" -->
+    <div class="money3">3150₴</div>
+    <!-- Ціна для 10 відвідувань -->
+</div>
+<div class="img13"><img src="{% static 'main/img/photo1684480298 1.png' %}" width="780" height="738">
+<span id="myText13">Разові </span>
+<span id="myText14">відвідування </span>
+<!-- Зображення та текст "Разові відвідування" -->
+</div>
+<div class="img14"><img src="{% static 'main/img/photo1684480298 1.png' %}" width="780" height="738">
+<span id="myText15"><strong>Абонементи </strong></span>
+<!-- Зображення та заголовок "Абонементи" -->
+</div>
+
+<div class="rectangle6">
+    <span id="myText16">Безлімітний доступ до центру</span>
+    <div class="money">3200₴</div>
+     <span id="myText17"> на місяць!</span>
+    <span id="myText18">Безлімітний доступ до центру</span>
+    <span id="myText19"> на чверть   на на чверть року!</span>
+    <div class="money2">7500₴</div>
+    <span id="myText20">Безлімітний доступ до центру</span>
+     <span id="myText21">на пів року!</span>
+     <div class="money3">11000₴</div>
+
+</div>
+
+<div class="rectangle7">
+    <span id="myText22">ELEVATION-club</span>
+    <span id="myText28">з щомісячною оплатою</span>
+
+     <span id="myText23"> <br>Це наш с тобою договір: ти фіксуєш</br>витрати на відвідування скеледрому,<br> а ми в додаток даємо купу приємних</br>&nbsp;&nbsp;&nbsp;&nbsp; бонусів для членів клубу.</span>
+    <span id="myText24">ELEVATION-club</span>
+    <span id="myText25"> з щорічною оплатою</span>
+
+    <div class="money5">2000₴</div>
+    <span id="myText26">Це найвигідніший тариф на відвідування скеледрому. А в додаток ще й купа приємних бонусівдля членів клубу.</span>
+
+     <div class="money6">11000₴</div>
+
+</div>
+<div class="img15"><img src="{% static 'main/img/photo1684480298 1.png' %}" width="780" height="738">
+<span id="myText27"><strong>Клубні картки </strong></span>
+</div>
+
+<div class="img16"><img src="{% static 'main/img/photo1684480298 1.png' %}" width="780" height="738">
+    <span id="myText38"><strong>Послуги інструктора</strong> </span>
+</div>
+
+<div class="rectangle8">
+    <span id="myText40">Індивідуальне тренування</span>
+    <div class="money393">600₴</div>
+     <span id="myText41">Сам на сам з інструктором</span>
+    <span id="myText42">Тренування для двох</span>
+    <span id="myText43">Обирай    <br>&nbsp;&nbsp;&nbsp;&nbsp;Обирай серед друзів надійного</br>напарника та набирайтесь корисних <br >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;навичок разом.</br></span>
+    <div class="money200">400₴</div>
+    <span id="myText44">Групове тренування</span>
+     <span id="myText450"><br>Збирайтесь з друзями цікаво і спортивно</br> провести час. Інструктора вистачить на <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbspвсіх!</br></span>
+     <div class="money300">400₴</div>
+
+</div>
+
+<div class="rectangle9">
+    <span id="myText2222">Перший візит</span>
+    <div class="money1350">500₴</div>
+     <span id="myText3212">Вперше на скеледромі?Маємо для тебе чудову пропозицію!Відвідування залу + інструктор + споряження.Все, що тобі потрібно в одному наборі.</span>
+    <span id="myText9999">Сімейне тренування</span>
+    <span id="myText4887">Ідеальне рішення щоб полазити всією родиною. Інструктор більше уваги приділяє дитині проте батьки також зможуть полазити і отримати поради від інструктора.</span>
+    <div class="money2000">1500₴</div>
+
+
+</div>
+
+<div class="img0"><img src="{% static 'main/img/photo1684480298 1.png' %}" width="780" height="738">
+    <span id="myText39"><strong>Спеціальні  <br>пропозиції </br></strong> </span>
+</div>
+
+
+<div class="rectangle44"></div>
+
+<div class="text66"><strong>м.Харків, метро Історичний музей <br>вул.Сумська 5</strong></br></div>
+
+
+<div class="text67">Як нас знайти?</div>
+
+<div class="line99"></div>
+
+<div class="phone33">093 449 5163 <br>68 793 2321</br> 050 638 6261</div>
+
+
+<div class="gmail">elevation@gmail.com</div>
+
+<div class="text68">Пн, Чт: 14:00–22:00 <br>Вт, Ср, Пт: 10:00–22:00</br> Вс: 10:30–19:00</div>
+
+<div class="img16000"><img src="{% static 'main/img/free-icon-facebook-4494475 1.png' %}" width="65" height="65" ></div>
+<div class="img17000"><img src="{% static 'main/img/free-icon-viber-3670059 1.png' %}" width="65" height="65" ></div>
+<div class="img18000"><img src="{% static 'main/img/free-icon-instagram-4494488 1.png' %}" width="65" height="65" ></div>
+<div class="img19000"><img src="{% static 'main/img/free-icon-telegram-3670070 1.png' %}" width="65" height="65" ></div>
+
+
+
+
+
+
+

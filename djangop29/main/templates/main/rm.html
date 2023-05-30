@@ -1,0 +1,408 @@
+{% load static %}
+<div class="rectangle1"></div>
+<div class="main"><a href="/" >Головна</a>  </div>
+<div class="main2">
+  <a href="/cost">Ціни і розклад</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="/kids">Дитячі свята</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="/contacts">Контакти</a>
+</div>
+
+
+<style>
+
+
+.rectangle1{
+    position: fixed;
+    width: 1580px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+    background: #000000;
+    z-index: 3;
+
+}
+body {
+  overflow-x: hidden;
+   height: 2000px;
+}
+.main{
+    position: fixed;
+    width: 127px;
+    height: 37px;
+    left: 100px;
+    top: 32px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+/* identical to box height */
+  z-index: 3;
+
+
+color: #FFFFFF;
+
+}
+
+.main2 {
+    position: fixed;
+    width: 621px;
+    height: 30px;
+    right: 99px;
+    top: 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+
+    line-height: 25px; /* Примерное значение, можно настроить по вашим потребностям */
+    margin-left: 50px;
+    color: #FFFFFF;
+      overflow: hidden; /* Скрываем избыточный текст */
+    transition: height 0.3s ease; /* Добавляем анимацию перехода */
+      z-index: 3;
+
+}
+.main2 a {
+    text-decoration: none; /* Убираем декорации ссылок */
+    color: inherit; /* Наследуем цвет текста от родительского элемента */
+}
+.main a {
+    text-decoration: none; /* Убираем декорации ссылок */
+    color: inherit; /* Наследуем цвет текста от родительского элемента */
+}
+.img0{
+    position: absolute;
+    left: 0px;
+top: 100px;
+
+
+}
+
+#myText1{
+    position: absolute;
+width: 1025px;
+height: 120px;
+left: 100px;
+top: 38px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 90px;
+line-height: 120px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+}
+
+#myText2{
+    position: absolute;
+width: 698px;
+height: 134px;
+left: 100px;
+top: 335px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 67px;
+
+color: #FFFFFF;
+
+
+
+}
+
+#myText3{
+position: absolute;
+width: 310px;
+height: 49px;
+left: 100px;
+top: 510px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 49px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+
+}
+
+
+#myText4{
+position: absolute;
+width: 344px;
+height: 111px;
+left: 100px;
+top: 563px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+
+color: #FFFFFF;
+
+
+}
+
+#myText5{
+position: absolute;
+width: 220px;
+height: 49px;
+left: 100px;
+top: 715px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 49px;
+/* identical to box height */
+
+
+color: #FFFFFF
+
+}
+
+
+#myText6{
+position: absolute;
+width: 192px;
+height: 111px;
+left: 102px;
+top: 768px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+}
+
+.img33{
+position: absolute;
+width: 1480px;
+height: 632px;
+left: 0px;
+top: 1086px;
+
+
+}
+
+.card{
+position: absolute;
+width: 1280px;
+height: 572px;
+left: 100px;
+top: 1116px;
+
+background: #D9D9D9;
+
+
+}
+
+.rectangle44{
+    position: relative;
+    width: 1580px;
+    height:482px;
+    left:-30px;
+    top: 1716px;
+
+    background: black;
+
+}
+.text66{
+  font-size: 30px;
+  color:white;
+  position:relative;
+  right:-100px;
+  top: 1300px;
+  color:white;
+  }
+
+  .text67{
+  font-size: 35px;
+  color:white;
+  position:relative;
+  right:-1190px;
+  top: 1230px;
+
+  }
+
+  .line99{
+
+   position: relative;
+    width: 1580px;
+    height:2px;
+    left:-30px;
+    top: 1308px;
+
+    background: white;
+
+  }
+
+  .phone33{
+
+  position: relative;
+  font-size: 30px;
+
+    left:100px;
+    top: 1358px;
+
+
+   color:white;
+  }
+
+  .phone33::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 160px;
+  height: 1px;
+  background-color: white;
+}
+
+  .gmail{
+
+  position: relative;
+  font-size: 30px;
+
+    left:88px;
+    top: 1408px;
+
+
+   color:white;
+  }
+    .text68{
+
+  position: relative;
+  font-size: 30px;
+
+    left:1130px;
+    top: 1208px;
+
+
+   color:white;
+  }
+   .img16000{
+    position: absolute;
+    top: 2109px;
+    left: 1087px;
+
+
+
+}
+  .img17000{
+    position: absolute;
+    top: 2109px;
+    left: 1187px;
+
+
+
+}
+  .img18000{
+    position: absolute;
+    top: 2109px;
+    left: 1287px;
+
+
+
+}
+  .img19000{
+    position: absolute;
+    top: 2109px;
+    left: 1387px;
+
+
+
+}
+</style>
+
+
+<!-- Блок для зображення -->
+<div class="img0"><img src="{% static 'main/img/photo1684477508 1.png' %}" width="1580" height="986">
+    <span id="myText1">Скеледром ELEVATION </span>
+    <span id="myText2">м.Харків, метро Історичний музей вул.Сумська 5 </span>
+      <span id="myText3">Графік роботи:</span>
+      <span id="myText4">Пн, Чт: 14:00–22:00
+Вт, Ср, Пт: 10:00–22:00
+Сб, Вс: 10:30–19:00 </span>
+      <span id="myText5">Телефони: </span>
+     <span id="myText6">093 449 5163
+068 793 2321
+050 638 6261 </span>
+
+
+</div>
+<!-- Блок для другого зображення -->
+<div class="img33"><img src="{% static 'main/img/photo1684480298 1.png' %}" width="1580" height="638">
+
+</div>
+<!-- Блок для карти Google -->
+<div class="card"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10258.185802492211!2d36.21514856815338!3d50.00111222001004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a06db1b5419d%3A0xf725a7c987c29d42!2z0J_QsNC8J9GP0YLQvdC40Log0KLQsNGA0LDRgdGDINCT0YDQuNCz0L7RgNC-0LLQuNGH0YMg0KjQtdCy0YfQtdC90LrRgw!5e0!3m2!1sru!2sua!4v1685106875127!5m2!1sru!2sua" width="1280" height="572" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+<div class="rectangle44"></div>
+
+<div class="text66"><strong>м.Харків, метро Історичний музей <br>вул.Сумська 5</strong></br></div><!-- Блок для тексту -->
+
+
+<div class="text67">Як нас знайти?</div>
+
+<div class="line99"></div>
+
+<div class="phone33">093 449 5163 <br>68 793 2321</br> 050 638 6261</div>
+
+
+<div class="gmail">elevation@gmail.com</div>
+
+<div class="text68">Пн, Чт: 14:00–22:00 <br>Вт, Ср, Пт: 10:00–22:00</br> Вс: 10:30–19:00</div>
+
+<div class="img16000"><img src="{% static 'main/img/free-icon-facebook-4494475 1.png' %}" width="65" height="65" ></div>
+<div class="img17000"><img src="{% static 'main/img/free-icon-viber-3670059 1.png' %}" width="65" height="65" ></div>
+<div class="img18000"><img src="{% static 'main/img/free-icon-instagram-4494488 1.png' %}" width="65" height="65" ></div>
+<div class="img19000"><img src="{% static 'main/img/free-icon-telegram-3670070 1.png' %}" width="65" height="65" ></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

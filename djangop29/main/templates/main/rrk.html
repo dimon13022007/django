@@ -1,0 +1,524 @@
+{% load static %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100&family=Konkhmer+Sleokchher&family=Playfair+Display&display=swap" rel="stylesheet">
+<div class="rectangle1"></div> <!-- Код для створення прямокутника з класом "rectangle1" -->
+<div class="main">
+  <a href="/" >Головна</a> <!-- Посилання на головну сторінку -->
+</div>
+<div class="main2">
+  <a href="/cost">Ціни і розклад</a> <!-- Посилання на сторінку з цінами і розкладом -->
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- Пробіли для відступу -->
+  <a href="/kids">Дитячі свята</a> <!-- Посилання на сторінку з дитячими святами -->
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- Пробіли для відступу -->
+  <a href="/contacts">Контакти</a> <!-- Посилання на сторінку з контактними даними -->
+</div>
+
+<style>
+
+
+.rectangle1{
+    position: fixed;
+    width: 1580px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+    background: #000000;
+    z-index: 3;
+
+}
+body {
+  overflow-x: hidden;
+   height: 2000px;
+}
+.main{
+    position: fixed;
+    width: 127px;
+    height: 37px;
+    left: 130px;
+    top: 32px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+/* identical to box height */
+  z-index: 3;
+
+
+color: #FFFFFF;
+
+}
+
+.main2 {
+    position: fixed;
+    width: 621px;
+    height: 30px;
+    right: 71px;
+    top: 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+
+    line-height: 25px; /* Примерное значение, можно настроить по вашим потребностям */
+    margin-left: 50px;
+    color: #FFFFFF;
+      overflow: hidden; /* Скрываем избыточный текст */
+    transition: height 0.3s ease; /* Добавляем анимацию перехода */
+      z-index: 3;
+
+}
+.main2 a {
+    text-decoration: none; /* Убираем декорации ссылок */
+    color: inherit; /* Наследуем цвет текста от родительского элемента */
+}
+.main a {
+    text-decoration: none; /* Убираем декорации ссылок */
+    color: inherit; /* Наследуем цвет текста от родительского элемента */
+}
+
+.lld{
+    position: relative;
+    left: -10px;
+
+
+}
+
+.lld2{
+    position:relative;
+    top: -796px;
+    left: 120px;
+
+}
+.rp{
+Font family: Playfair Display;
+Font style: Bold;
+Font size: 90px;
+Line height: 120px;
+Line height: 100%;
+Align: Left;
+Vertical align: Top;
+position:relative;
+top: -790px;
+color:white;
+ font-size: 100px;
+ left: 120px;
+
+
+}
+.text6{
+Font family: Playfair Display;
+Font style: Bold;
+Font size: 90px;
+Line height: 120px;
+Line height: 100%;
+Align: Left;
+Vertical align: Top;
+position:relative;
+top: -750px;
+color:white;
+ font-size: 30px;
+ left: 120px;
+
+
+}
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-image: url("{% static 'main/img/Bullet_(typography).svg.png' %}");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: 670px;
+  left: 1300px;
+}
+
+.text {
+  position: absolute;
+  top: 48%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+}
+
+.img6{
+    position: absolute;
+    top: 938px;
+
+
+}
+
+.rectangle2{
+    position: relative;
+    width: 580px;
+    height:400px;
+    left: 120px;
+    top: -530px;
+
+    background: #866AD3;
+
+}
+
+#myText {
+  font-size: 44px;
+  color:white;
+  position:relative;
+  right:-90px;
+  top:40px;
+}
+#myText2 {
+  font-size: 20px;
+  color:white;
+  position:relative;
+  right:-80px;
+  top:140px;
+
+}
+
+.rectangle3{
+    position: relative;
+    width: 580px;
+    height:400px;
+    left:820px;
+    top: -930px;
+
+    background: #67DFD0;
+
+}
+#myText4 {
+  font-size: 44px;
+  color:white;
+  position:relative;
+  right:-90px;
+  top:40px;
+}
+
+#myText5 {
+  font-size: 20px;
+  color:white;
+  position:relative;
+  right:-90px;
+  top:140px;
+
+}
+
+.rectangle4{
+    position: relative;
+    width: 580px;
+    height:400px;
+    left:120px;
+    top: -870px;
+
+    background: #209CFF;
+
+}
+#myText6 {
+  font-size: 44px;
+  color:white;
+  position:relative;
+  right:-90px;
+  top:40px;
+}
+#myText7 {
+  font-size: 20px;
+  color:white;
+  position:relative;
+  right:-90px;
+  top:120px;
+
+}
+.rectangle5{
+    position: relative;
+    width: 580px;
+    height:400px;
+    left:820px;
+    top: -1268px;
+
+    background: #FF9AED;
+
+}
+#myText8 {
+  font-size: 44px;
+  color:white;
+  position:relative;
+  right:-90px;
+  top:40px;
+}
+#myText9 {
+  font-size: 20px;
+  color:white;
+  position:relative;
+  right:-90px;
+  top:120px;
+
+}
+
+.img7{
+
+    position: absolute;
+    top: 1925px;
+    left: -30px;
+
+
+}
+.ssd{
+    position: absolute;
+    top: 1965px;
+    left: 860px;
+    font-size: 60px;
+
+
+}
+
+.asdf{
+    position: absolute;
+    top: 2215px;
+    left: 860px;
+    font-size: 30px;
+
+
+}
+
+.img9{
+    position: absolute;
+    top: 2896px;
+
+
+
+}
+.img10{
+    position: absolute;
+    top: 2966px;
+    left: 110px;
+
+
+}
+.img11{
+    position: absolute;
+    top: 2966px;
+    left: 570px;
+
+
+}
+
+.img12{
+    position: absolute;
+    top: 2966px;
+    left: 1022px;
+
+
+}
+.rectangle44{
+    position: relative;
+    width: 1580px;
+    height:482px;
+    left:-30px;
+    top: 398px;
+
+    background: black;
+
+}
+.text66{
+  font-size: 30px;
+  color:white;
+  position:relative;
+  right:-100px;
+  top: -10px;
+  }
+
+  .text67{
+  font-size: 35px;
+  color:white;
+  position:relative;
+  right:-1190px;
+  top: -70px;
+
+  }
+
+  .line99{
+
+   position: relative;
+    width: 1580px;
+    height:2px;
+    left:-30px;
+    top: 8px;
+
+    background: white;
+
+  }
+
+  .phone33{
+
+  position: relative;
+  font-size: 30px;
+
+    left:96px;
+    top: 68px;
+
+
+   color:white;
+  }
+
+  .phone33::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 160px;
+  height: 1px;
+  background-color: white;
+}
+
+  .gmail{
+
+  position: relative;
+  font-size: 30px;
+
+    left:88px;
+    top: 118px;
+
+
+   color:white;
+  }
+    .text68{
+
+  position: relative;
+  font-size: 30px;
+
+    left:1120px;
+    top: -78px;
+
+
+   color:white;
+  }
+
+  .img16{
+    position: absolute;
+    top: 3959px;
+    left: 1087px;
+
+
+
+}
+  .img17{
+    position: absolute;
+    top: 3959px;
+    left: 1187px;
+
+
+
+}
+  .img18{
+    position: absolute;
+    top: 3959px;
+    left: 1287px;
+
+
+
+}
+  .img19{
+    position: absolute;
+    top: 3959px;
+    left: 1387px;
+
+
+
+}
+</style>
+
+<div class="lld">  <img src="{% static 'main/img/IMG_5213 1.png' %}" alt="LOGO" width="1530px" height="930px" ></div>
+<!-- Контейнер з класом "lld", в якому розміщено зображення LOGO -->
+<div class="lld2">  <img src="{% static 'main/img/logo.D11 1 (1).png' %}" alt="LOGO"  ></div>
+<!-- Контейнер з класом "lld2", в якому розміщено зображення LOGO -->
+<div class="rp">
+  <span class="main-word">СКЕЛЕДРОМ</span>
+  <br>
+  <span class="sub-word">У Харкові</span>
+</div>
+<!-- Контейнер з класом "rp", в якому розміщено заголовок "СКЕЛЕДРОМ" та підзаголовок "У Харкові" -->
+<div class="text6">
+    <span class="main-word">600 М2 СКЕЛЕЛАЗНИХ ПЛОЩИН /</span>
+  <br>
+  <span class="sub-word">100+ ОНОВЛЮВАНИХ ТРАС</span>
+</div>
+<!-- Контейнер з класом "text6", в якому розміщено заголовок "600 М2 СКЕЛЕЛАЗНИХ ПЛОЩИН /" та підзаголовок "100+ ОНОВЛЮВАНИХ ТРАС" -->
+<div class="circle">
+  <span class="text">ОПЛАТА ЗАПИСУ</span>
+  <a href="/payments"></a>
+</div>
+<!-- Контейнер з класом "circle", в якому розміщено текст "ОПЛАТА ЗАПИСУ" та зображення кнопки -->
+<div class="img6">  <img src="{% static 'main/img/photo1684480298 1.png' %}" alt="LOGO" width="1530px" height="987px" ></div>
+<!-- Контейнер з класом "img6", в якому розміщено зображення LOGO -->
+<div class="rectangle2">
+    <span id="myText">Вперше на <br>скеледромі</br></span>
+    <span id="myText2">Варто спробувати і ти відкриєш для себе <br>нове захоплення, а разом з тим, цілий світ</br> сповнений яскравих вражень</span>
+</div>
+
+<div class="rectangle3">
+    <span id="myText4">Заняття з  <br>інструктором</br></span>
+    <span id="myText5">Індивідуальні, парні та групові заняття з <br>інструктором доступні для тебе на будь-який <br>час за попереднім бронюванням.Заняття у </br>  класах за розкладом.</span>
+</div>
+
+
+<div class="rectangle4">
+    <span id="myText6">Заняття з  <br>інструктором</br></span>
+    <span id="myText7">Навички лазіння закладені в нас природою, <br>ле з віком ми їх втрачаємо.Скелелазіння </br> комплексно розвиває тіло, покращує</br> координацію та сприяє концентрації уваги.</span>
+</div>
+
+<div class="rectangle5">
+    <span id="myText8">Подарункові   <br>сертифікати</br></span>
+    <span id="myText9">Цікава активність та незабутні емоції </br> найкращий подарунок. Сертифікати доступні</br> як в електронному вигляді,так і у вигляді  <br>подарункового конверта.</br></span>
+</div>
+
+<div class="img7">  <img src="{% static 'main/img/photo1684484409 1.png' %}" alt="LOGO" width="1489px" height="972px" ></div>
+
+<div class="ssd"><strong>Про скеледром <br>ELEVATION</br></strong></div>
+
+<div class="asdf">В 2023 році ми відкрили <br>перший скеледром ELEVATION</br> у самому центрі міста. Цей <br>скеледром задав новий рівень</br>комфорту та якості. Стильний <br>простір, який підкреслює всю </br> красу лазіння, став найкращим <br>скеледромом для тренуваннь</br> новачків і профі, дорослих та <br>дітей.</br></div>
+
+
+
+<div class="img9"> <img src="{% static 'main/img/photo1684480298 1.png' %}" width="1530px" height="629"> </div>
+
+<div class="img10"><img src="{% static 'main/img/photo1684486240 1.png' %}" width="400" height="400"></div>
+
+<div class="img11"><img src="{% static 'main/img/photo1684486499 1.png' %}" width="400" height="400"></div>
+
+<div class="img12"><img src="{% static 'main/img/photo1684486371 1.png' %}" width="400" height="400"></div>
+
+
+<div class="rectangle44"></div>
+
+<div class="text66"><strong>м.Харків, метро Історичний музей <br>вул.Сумська 5</strong></br></div>
+
+
+<div class="text67">Як нас знайти?</div>
+
+<div class="line99"></div>
+
+<div class="phone33">093 449 5163 <br>68 793 2321</br> 050 638 6261</div>
+
+
+<div class="gmail">elevation@gmail.com</div>
+
+<div class="text68">Пн, Чт: 14:00–22:00 <br>Вт, Ср, Пт: 10:00–22:00</br> Вс: 10:30–19:00</div>
+
+<!--Картинки з соц мережами  -->
+<div class="img16"><img src="{% static 'main/img/free-icon-facebook-4494475 1.png' %}" width="65" height="65" ></div>
+<div class="img17"><img src="{% static 'main/img/free-icon-viber-3670059 1.png' %}" width="65" height="65" ></div>
+<div class="img18"><img src="{% static 'main/img/free-icon-instagram-4494488 1.png' %}" width="65" height="65" ></div>
+<div class="img19"><img src="{% static 'main/img/free-icon-telegram-3670070 1.png' %}" width="65" height="65" ></div>
+
+
+
+
+
+
+
+

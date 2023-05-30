@@ -1,0 +1,15 @@
+{% extends 'main/layout.html' %}
+{% block title %} Задачі {% endblock %}
+
+{% block content %}
+    <div class="features">
+    <h1>Задачі на сайті</h1>
+        {% for el in news %}
+        <div class="alert-alert-warning">
+            <h3>{{ el.tasks }}</h3>
+            <p>{{ el.anons }}</p>
+        </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}
